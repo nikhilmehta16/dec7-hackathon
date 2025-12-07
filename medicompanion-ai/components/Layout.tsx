@@ -55,7 +55,7 @@ export const Layout: React.FC<LayoutProps> = ({
             </div>
             <div>
               <span className="text-xl font-bold text-gray-900 block">
-                Arogya Sathi
+                Health Buddy
               </span>
               <span className="text-xs text-gray-500 font-medium uppercase tracking-wider">
                 Urban Senior Care
@@ -73,7 +73,7 @@ export const Layout: React.FC<LayoutProps> = ({
           />
           <NavItem
             icon={<MessageSquareIcon className="w-6 h-6" />}
-            label="Arogya Sathi Chat"
+            label="Health Buddy Chat"
             isActive={activeRoute === AppRoute.CHAT}
             onClick={() => onNavigate(AppRoute.CHAT)}
           />
