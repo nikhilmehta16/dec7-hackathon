@@ -1,0 +1,5 @@
+Patient: Jane Smith
+Date: 2023-10-28
+Symptoms: Headache, blurred vision.
+Diagnosis: Migraine.
+Recommendation: Avoid bright lights, prescription medication.

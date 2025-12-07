@@ -1,0 +1,5 @@
+Patient: John Doe
+Date: 2023-10-27
+Symptoms: Fever, cough, fatigue.
+Diagnosis: Viral Infection.
+Recommendation: Rest, fluids, paracetamol.

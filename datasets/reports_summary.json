@@ -1,0 +1,47 @@
+[
+    {
+        "filename": "report_john_doe.txt",
+        "summary": {
+            "date": "2023-10-27",
+            "diagnosis": "Viral Infection",
+            "medicines": "Rest, fluids, paracetamol",
+            "other": "Symptoms: Fever, cough, fatigue."
+        }
+    },
+    {
+        "filename": "report_jane_smith.txt",
+        "summary": {
+            "date": "2023-10-28",
+            "diagnosis": "Migraine",
+            "medicines": "Avoid bright lights, prescription medication",
+            "other": "Symptoms: Headache, blurred vision."
+        }
+    },
+    {
+        "filename": "headache_report_dec_7_2025.txt",
+        "summary": {
+            "date": "Dec 7 2025",
+            "diagnosis": "Unknown",
+            "medicines": "None mentioned",
+            "other": "Symptoms: Headache"
+        }
+    },
+    {
+        "filename": "report_dec_7_2025",
+        "summary": {
+            "date": "Unknown",
+            "diagnosis": "Unknown",
+            "medicines": "None mentioned",
+            "other": ""
+        }
+    },
+    {
+        "filename": "nikhil_dec8",
+        "summary": {
+            "date": "Unknown",
+            "diagnosis": "Unknown",
+            "medicines": "None mentioned",
+            "other": ""
+        }
+    }
+]

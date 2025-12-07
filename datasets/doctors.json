@@ -1,0 +1,14 @@
+{
+  "Dr. A": {
+    "specialty": "Cardiology",
+    "free_time": ["Monday 10:00-12:00", "Wednesday 14:00-16:00"]
+  },
+  "Dr. B": {
+    "specialty": "Dermatology",
+    "free_time": ["Tuesday 09:00-11:00", "Friday 13:00-15:00"]
+  },
+  "Dr. C": {
+    "specialty": "General Practice",
+    "free_time": ["Monday 09:00-17:00", "Thursday 09:00-12:00"]
+  }
+}
