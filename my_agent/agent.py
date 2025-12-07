@@ -85,6 +85,23 @@ def _parse_report_content(content: str) -> dict:
             
     return summary
 
+def list_doctors() -> dict:
+    """Lists all available doctors and their specialties with their appointmnet. use this if someone ask for list of doctors."""
+    doctors = _load_doctors()
+    if not doctors:
+        return {"status": "success", "message": "No doctors found.", "doctors": []}
+    
+    # Format for better readability by the agent
+    doctor_list = []
+    for name, details in doctors.items():
+        doctor_list.append({
+            "name": name,
+            "specialty": details.get("specialty", "Unknown"),
+            "available_slots": details.get("free_time", [])
+        })
+        
+    return {"status": "success", "doctors": doctor_list}
+
 def get_doctor_schedule(doctor_name: str) -> dict:
     """Retrieves the schedule and specialty for a specified doctor."""
     doctors = _load_doctors()
@@ -486,6 +503,7 @@ root_agent = Agent(
         "If the user asks to see their reports, try 'get_reports_summary' first for a quick overview."
     ),
     tools=[
+        list_doctors,
         get_doctor_schedule, 
         book_appointment,
         modify_appointment,

@@ -43,5 +43,14 @@
             "medicines": "None mentioned",
             "other": ""
         }
+    },
+    {
+        "filename": "ALS_condition",
+        "summary": {
+            "date": "Unknown",
+            "diagnosis": "Unknown",
+            "medicines": "None mentioned",
+            "other": ""
+        }
     }
 ]
